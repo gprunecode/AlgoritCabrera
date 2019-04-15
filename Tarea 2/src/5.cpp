@@ -19,7 +19,7 @@ int main () {
 		cout<<numero<< " es divisible por 5"<<endl;
 	}	
 	
-	if (numero % 5 != 0 && numero % 3 !=  0 && numero % 3 !=  0){
+	if (numero % 5 != 0 && numero % 3 !=  0 && numero % 2 !=  0){
 		cout<<numero<< " no es divisible por 2, ni por 3 ni por 5"<<endl;
 	}
 }
